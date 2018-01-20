@@ -1,0 +1,36 @@
+x = 2*.4 + 6*.6 + -2
+x = .8 + 3.6 -2 = 2.4
+
+x = 3*.4 + 5*.6 + -2.2
+x = 1.2 + 3 - 2.2 = 2
+
+x = 5*.4 + 4*.6 + -3
+x = 2 + 2.4 - 3 = 1
+
+sigmoid
+1/1-e ^-x
+
+
+softmax
+
+perceptron
+x=(x1,x2) point on xy w1x1+w2x2+b linear equation where w are weights/edges and b is bias
+y = 1
+
+Feedforward
+Feedforward is the process neural networks use to turn the input into an output. Let's study it more carefully, before we dive into how to train the networks.
+Basically running perceptrons output through the sigmoid, weights and biases over and over
+
+backpropagation
+Doing a feedforward operation.
+Comparing the output of the model with the desired output.
+Calculating the error.
+Running the feedforward operation backwards (backpropagation) to spread the error to each of the weights.
+Use this to update the weights, and get a better model.
+Continue this until we have a model that is good.
+
+prediction
+error function 
+gradient of the error function
+
+chain rule

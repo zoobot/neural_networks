@@ -1,0 +1,16 @@
+Perceptron
+discrete vs continious
+
+soft max - for finding
+one hot encoding
+
+maximum likelihood
+
+cross entropy
+log(ab) = -ln(.8)-ln(.7)-ln(c.9)
+log(ab) = log(a)+log(b)
+points that are bad will have larger values
+
+
+
+-(y-y_hat)xj
